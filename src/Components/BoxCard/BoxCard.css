@@ -1,0 +1,51 @@
+/* BoxCard Section */
+
+.card-container-box {
+  padding: 12px;
+  margin-top: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.card-container-box:hover {
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgb(186, 183, 183);
+  transition: all 0.2s ease-in-out;
+}
+
+.card-container-img {
+  height: 200px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card-text {
+  margin-top: 10px;
+}
+
+.card-text p {
+  color: grey;
+  font-size: 14px;
+}
+
+.card-left-text p {
+  margin-top: 6px;
+}
+
+.card-right-text {
+  text-align: right;
+}
+
+.card-right-text h4 {
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 8px 15px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.card-right-text p {
+  margin-block: 7px;
+}

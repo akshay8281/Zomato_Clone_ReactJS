@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+.login-section {
+  height: 500px;
+  width: 450px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: white;
+  margin: 8% auto;
+  border: 2px solid black;
+}
+
+.login-container {
+  flex-direction: column;
+}
+
+.Login-text {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.country-code {
+  width: 6rem;
+  height: 40px;
+  text-align: center;
+  border: 1px solid rgb(171, 165, 165);
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.contactBar {
+  margin-block: 30px;
+  margin-left: -5px;
+  width: 220px;
+  height: 40px;
+  border: 1px solid rgb(171, 165, 165);
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+input {
+  padding-left: 15px;
+  border-left: none;
+}
+
+.btn-login {
+  flex-direction: column;
+}
+
+.btn-login button {
+  width: 20rem;
+  height: 40px;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 1px solid rgb(171, 165, 165);
+}
+
+.OTP {
+  margin-bottom: 20px;
+  background-color: #e23744;
+  color: white;
+}
+
+.Email-button {
+  margin-block: 20px;
+  justify-content: center;
+}
+
+.btn-login p {
+  font-size: 20px;
+}
+
+.mail-icon {
+  color: red;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.google-button {
+  justify-content: center;
+}
+
+.GoogleLogo {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.login-bottom-section {
+  margin-top: 60px;
+  font-size: 18px;
+}
+
+.createAccount {
+  color: #e23744;
+  margin-left: 10px;
+}

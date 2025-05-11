@@ -1,0 +1,49 @@
+/* Hero-Slider */
+
+.slider-1,
+.slider-2 {
+  margin-top: 10px;
+  background-color: #f8f8f8;
+  padding-block: 40px;
+}
+
+.slider-1-container,
+.slider-2-container {
+  margin-top: 30px;
+}
+
+.slider-1-cards h2,
+.slider-2-cards h2,
+.box-cards-main h2,
+.explore-section-main h2,
+.hello {
+  color: #1c1c1c;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.slider-1-round,
+.slider-2-round {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.slider-1-round-img,
+.slider-2-round-img {
+  width: 100%;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 10px rgb(186, 183, 183);
+}
+
+.slider-1-label,
+.slider-2-label {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/* slider-2 */
+
+.slider-2 {
+  background-color: white;
+}
