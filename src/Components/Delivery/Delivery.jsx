@@ -5,14 +5,15 @@ import BoxCard from "../BoxCard/BoxCard";
 
 export default function Delivery() {
   // Round Card Item 1
-const roundCardItem_1 = [
-  { image: "assets/asset 3.avif", item: "Pizza", altName: "Pizza" },
-  { image: "assets/asset 4.avif", item: "Burger", altName: "Burger" },
-  { image: "assets/asset 5.avif", item: "Sandwich", altName: "Sandwich" },
-  { image: "assets/asset 6.avif", item: "Biryani", altName: "Biryani" },
-  { image: "assets/asset 8.avif", item: "Thali", altName: "Thali" },
-  { image: "assets/asset 7.avif", item: "Cake", altName: "Cake" },
-];
+  const roundCardItem_1 = [
+    // { image: "assets/asset 3.avif", item: "Pizza", altName: "Pizza" },
+    { image: "assets/asset_3.avif", item: "Pizza", altName: "Pizza" },
+    { image: "assets/asset_4.avif", item: "Burger", altName: "Burger" },
+    { image: "assets/asset_5.avif", item: "Sandwich", altName: "Sandwich" },
+    { image: "assets/asset_6.avif", item: "Biryani", altName: "Biryani" },
+    { image: "assets/asset_8.avif", item: "Thali", altName: "Thali" },
+    { image: "assets/asset_7.avif", item: "Cake", altName: "Cake" },
+  ];
   // Round Card Item 2
 
   const roundCardItem_2 = [
@@ -189,7 +190,6 @@ const roundCardItem_1 = [
                   duration={boxCard.duration}
                 />
               ))}
-
             </div>
           </div>
         </div>
