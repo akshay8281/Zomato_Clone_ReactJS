@@ -1,6 +1,6 @@
 {
-  "homepage": "https://akshay8281.github.io/Zomato_Clone_ReactJS",
-  "name": "Zomato_Clone_ReactJ",
+  "homepage": "https://akshay8281.github.io/zomato_clone_reactjs",
+  "name": "zomato_clone_reactjs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.3",
