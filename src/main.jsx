@@ -22,7 +22,10 @@ const router = createBrowserRouter(
       <Route path="login" element={<Login />} />
       <Route path="signup" element={<SignUp />} />
     </Route>
-  )
+  ),
+    {
+    basename: "/zomato_clone_reactjs",
+  }
 );
 
 createRoot(document.getElementById("root")).render(

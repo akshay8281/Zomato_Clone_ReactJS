@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/zomato_clone_reactjs/",
   plugins: [tailwindcss(), react()],
+  base: "/zomato_clone_reactjs/",
 });
