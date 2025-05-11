@@ -1,0 +1,74 @@
+/* Dinning-Out-Slot */
+
+.dinning-out-collection {
+  background-color: #f8f8f8;
+  padding-block: 30px;
+}
+
+.rect-header h2 {
+  font-size: 30px;
+}
+
+.rect-sub-header {
+  margin-top: 20px;
+}
+
+.rect-sub-header h3 {
+  color: grey;
+  font-weight: 250;
+  font-size: 21px;
+}
+
+.all-collection {
+  color: #ff7e8b;
+}
+
+/* Rectangle-box-container */
+
+.rectangle-box-container {
+  margin-top: 15px;
+}
+
+.rectangle-slot {
+  height: 320px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.829)
+    ),
+    url("./Assets_2/Winners_Zomato.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding: 0px 20px 20px 20px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.rectangle-slot:nth-child(2) {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.829)
+    ),
+    url("./Assets_2/NewlyOpen.jpg");
+}
+
+.rectangle-slot:nth-child(3) {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.829)
+    ),
+    url("./Assets_2/GreatBuffets.jpg");
+}
+
+.rectangle-slot:nth-child(4) {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.829)
+    ),
+    url("./Assets_2/Best_Luxury.jpg");
+}

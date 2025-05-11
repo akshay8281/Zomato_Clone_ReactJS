@@ -60,13 +60,57 @@ export default function Delivery() {
   const boxCardItem = [
     {
       boxImage: "/public/assets/asset 18.avif",
-      altName: "",
-      foodStall: "",
-      Name: "",
-      foodItemInfo: "",
-      ratings: "",
-      prices: "",
-      duration: "",
+      altName: "PVR Cafe",
+      foodStallName: "PVR Cafe",
+      foodItemInfo: "Fast Food,Momos, Bever...",
+      ratings: "4.0 +",
+      prices: "Rs. 200 for one",
+      duration: "10 min.",
+    },
+    {
+      boxImage: "/public/assets/asset 17.avif",
+      altName: "La Pinos's Pizza",
+      foodStallName: "La Pinos's Pizza",
+      foodItemInfo: "Pizza, Pasta, Italian, Frency....",
+      ratings: "3.0 +",
+      prices: "Rs. 200 for one",
+      duration: "20 min.",
+    },
+    {
+      boxImage: "/public/assets/Bablu Shree Farali Center.avif",
+      altName: "Bablu Shree Farali Center",
+      foodStallName: "Bablu Shree Farali Center",
+      foodItemInfo: "Fast Food, South Indian",
+      ratings: "4.1 +",
+      prices: "Rs. 300 for one",
+      duration: "25 min.",
+    },
+    {
+      boxImage: "/public/assets/Poult.avif",
+      altName: "Poult",
+      foodStallName: "Poult",
+      foodItemInfo: "Fast Food,Burger, Bever...",
+      ratings: "4.0 +",
+      prices: "Rs. 230 for one",
+      duration: "13 min.",
+    },
+    {
+      boxImage: "/public/assets/McDonald's.avif",
+      altName: "Mc Donald's",
+      foodStallName: "Mc Donald's",
+      foodItemInfo: "Burger, Fast Food, Dessert...",
+      ratings: "4.0 +",
+      prices: "Rs. 300 for one",
+      duration: "22 min.",
+    },
+    {
+      boxImage: "/public/assets/Jay Bhavani Vadapav.avif",
+      altName: "Jay Bhavani",
+      foodStallName: "Jay Bhavani",
+      foodItemInfo: "Street Food, Fast Food and More",
+      ratings: "4.2 +",
+      prices: "Rs. 150 for one",
+      duration: "9 min.",
     },
   ];
   return (
@@ -155,197 +199,6 @@ export default function Delivery() {
                 />
               ))}
 
-              {/* <div class="card-container-box col-30">
-                <div>
-                  <img
-                    class="card-container-img"
-                    // src="./assets/asset 18.avif"
-                    src={BoxImage || BoxDefaultImage}
-                    alt={altName}
-                  />
-                </div>
-                <div class="card-text flex jc-sb">
-                  <div class="card-left-text">
-                    <div>
-                      <h3>{foodStallName}</h3>
-                    </div>
-                    <div>
-                      <p>{foodItemInfo}</p>
-                    </div>
-                  </div>
-
-                  <div class="card-right-text">
-                    <div>
-                      <h4>{ratings}</h4>
-                    </div>
-                    <div>
-                      <p>{prices}</p>
-                    </div>
-                    <div>
-                      <p>{duration}</p>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
-
-              {/* <div class="card-container-box col-30">
-                <div>
-                  <img
-                    class="card-container-img"
-                    src="./assets/asset 17.avif"
-                    alt=""
-                  />
-                </div>
-                <div class="card-text flex jc-sb">
-                  <div class="card-left-text">
-                    <div>
-                      <h3>La Pinos's Pizza</h3>
-                    </div>
-                    <div>
-                      <p>Pizza, Pasta, Italian, Frency....</p>
-                    </div>
-                  </div>
-                  <div class="card-right-text">
-                    <div>
-                      <h4>3.0 +</h4>
-                    </div>
-                    <div>
-                      <p>Rs. 200 for one</p>
-                    </div>
-                    <div>
-                      <p>20 min.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card-container-box col-30">
-                <div>
-                  <img
-                    class="card-container-img"
-                    src="./assets/Bablu Shree Farali Center.avif"
-                    alt=""
-                  />
-                </div>
-                <div class="card-text flex jc-sb">
-                  <div class="card-left-text">
-                    <div>
-                      <h3>
-                        Bablu Shree <br />
-                        Farali Center
-                      </h3>
-                    </div>
-                    <div>
-                      <p>Fast Food, South Indian</p>
-                    </div>
-                  </div>
-                  <div class="card-right-text">
-                    <div>
-                      <h4>4.1 +</h4>
-                    </div>
-                    <div>
-                      <p>Rs. 200 for one</p>
-                    </div>
-                    <div>
-                      <p>25 min.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card-container-box col-30">
-                <div>
-                  <img
-                    class="card-container-img"
-                    src="./assets/Poult.avif"
-                    alt=""
-                  />
-                </div>
-                <div class="card-text flex jc-sb">
-                  <div class="card-left-text">
-                    <div>
-                      <h3>Poult</h3>
-                    </div>
-                    <div>
-                      <p>Fast Food,Burger, Bever...</p>
-                    </div>
-                  </div>
-
-                  <div class="card-right-text">
-                    <div>
-                      <h4>4.0 +</h4>
-                    </div>
-                    <div>
-                      <p>Rs. 230 for one</p>
-                    </div>
-                    <div>
-                      <p>20 min.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card-container-box col-30">
-                <div>
-                  <img
-                    class="card-container-img"
-                    src="./assets/McDonald's.avif"
-                    alt=""
-                  />
-                </div>
-                <div class="card-text flex jc-sb">
-                  <div class="card-left-text">
-                    <div>
-                      <h3>Mc Donald's</h3>
-                    </div>
-                    <div>
-                      <p>Burger, Fast Food, Desser...</p>
-                    </div>
-                  </div>
-                  <div class="card-right-text">
-                    <div>
-                      <h4>4.0 +</h4>
-                    </div>
-                    <div>
-                      <p>Rs. 300 for one</p>
-                    </div>
-                    <div>
-                      <p>30 min.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card-container-box col-30">
-                <div>
-                  <img
-                    class="card-container-img"
-                    src="./assets/Jay Bhavani Vadapav.avif"
-                    alt=""
-                  />
-                </div>
-                <div class="card-text flex jc-sb">
-                  <div class="card-left-text">
-                    <div>
-                      <h3>Jay Bhavani</h3>
-                    </div>
-                    <div>
-                      <p>Street Food, Fast Food and More</p>
-                    </div>
-                  </div>
-                  <div class="card-right-text">
-                    <div>
-                      <h4>4.0 +</h4>
-                    </div>
-                    <div>
-                      <p>Rs. 150 for one</p>
-                    </div>
-                    <div>
-                      <p>8 min.</p>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>
