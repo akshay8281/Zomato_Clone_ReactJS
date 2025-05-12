@@ -28,7 +28,7 @@ export default function Dinning() {
   // Dinning Box card
   const dinningBoxData = [
     {
-      dinningBoxImage: "/public/Assets_2/Three Qurter Indian.avif",
+      dinningBoxImage: "Assets_2/Three Qurter Indian.avif",
       imgAltName: "Three Quarter Indian",
       dinningPlace: "Three Quarter Indian",
       foodItems: "North Indian, Continental, Italia...",
@@ -38,7 +38,7 @@ export default function Dinning() {
       distance: "10 Km",
     },
     {
-      dinningBoxImage: "/public/Assets_2/Ishara.avif",
+      dinningBoxImage: "Assets_2/Ishara.avif",
       imgAltName: "Ishaara",
       dinningPlace: "Ishaara",
       foodItems: "North Indian, Mughlai, Kebab....",
@@ -48,7 +48,7 @@ export default function Dinning() {
       distance: "4 Km",
     },
     {
-      dinningBoxImage: "/public/Assets_2/Bellasen.avif",
+      dinningBoxImage: "Assets_2/Bellasen.avif",
       imgAltName: "Bellasen Bistro",
       dinningPlace: "Bellasen Bistro",
       foodItems: "North Indian, Chinese, Conti....",
@@ -58,7 +58,7 @@ export default function Dinning() {
       distance: "5.5 Km",
     },
     {
-      dinningBoxImage: "/public/Assets_2/Pink Pallete.avif",
+      dinningBoxImage: "Assets_2/Pink Pallete.avif",
       imgAltName: "Pink Palette",
       dinningPlace: "Pink Palette",
       foodItems: "North Indian, Chinese, Pizzaa...",
@@ -68,7 +68,7 @@ export default function Dinning() {
       distance: "10 Km",
     },
     {
-      dinningBoxImage: "/public/Assets_2/Cha.avif",
+      dinningBoxImage: "Assets_2/Cha.avif",
       imgAltName: "Cha",
       dinningPlace: "Cha",
       foodItems: "Asian, Chinese",
@@ -78,7 +78,7 @@ export default function Dinning() {
       distance: "7.7 Km",
     },
     {
-      dinningBoxImage: "/public/Assets_2/Topspin.avif",
+      dinningBoxImage: "Assets_2/Topspin.avif",
       imgAltName: "Topspin",
       dinningPlace: "Topspin",
       foodItems: "Cafe, Coffee, Tea, Shake,....",
@@ -163,7 +163,7 @@ export default function Dinning() {
           <Link to="#">
             <img
               className="dinning-hero-img"
-              src="/public/Assets_2/asset 17.avif"
+              src="Assets_2/asset 17.avif"
               alt="Hero Image"
             />
           </Link>

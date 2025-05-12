@@ -30,7 +30,7 @@ export default function SignUp() {
           <button className="google-button flex">
             <img
               className="GoogleLogo"
-              src="/public/Assets_2/GoogleLogo.png"
+              src="Assets_2/GoogleLogo.png"
               alt="GoogleLogo"
             />
             Continue with Google

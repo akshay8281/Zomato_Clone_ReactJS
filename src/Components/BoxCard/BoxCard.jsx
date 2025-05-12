@@ -21,7 +21,6 @@ export default function BoxCard({
         <div>
           <img
             className="card-container-img"
-            // src="./assets/asset 18.avif"
             src={boxImage || BoxDefaultImage}
             alt={altName}
           />
