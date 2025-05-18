@@ -60,10 +60,10 @@
   color: grey;
 }
 
-/* .login-button:active {
+.login-button:active {
   border-radius: 8px;
   border: 1.5px solid red;
-} */
+}
 
 /* Sub-nav */
 
@@ -103,3 +103,14 @@
   bottom: 0;
   margin: auto auto;
 }
+
+.active-tab {
+  color: #ff0000; /* red text for active */
+  border-bottom: 3px solid #ff0000; /* red bottom border */
+}
+
+.inactive-tab {
+  color: #555555; /* grey text for inactive */
+  border-bottom: none;
+}
+

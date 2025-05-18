@@ -8,7 +8,8 @@
 }
 
 body {
-  background-color: #000000, opacity 0%;
+  /* background-color: #000000, opacity 0%; */
+   background-color: rgba(0, 0, 0, 0);
 }
 
 a {
@@ -487,7 +488,7 @@ ul li {
     margin: 20px;
   }
 
-  .card-container-boc {
+  .card-container-box {
     padding: 20px 15px;
   }
 

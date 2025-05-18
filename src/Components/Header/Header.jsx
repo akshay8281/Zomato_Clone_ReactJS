@@ -67,7 +67,7 @@ export default function Header() {
                 <Link className="" to="/" target="_self">
                   <img
                     className="sub-nav-a-img"
-                    src="assets/asset 1.avif"
+                    src="/assets/asset 1.avif"
                     alt=""
                   />
                 </Link>
@@ -75,7 +75,7 @@ export default function Header() {
 
               <NavLink
                 className={({ isActive }) => `sub-nav-a-text
-                  ${isActive ? "text-red-500" : "text-yellow-700"}
+                  ${isActive ? "active-tab" : "inactive-tab"}
                   `}
                 target="_self"
                 to="/"
@@ -88,7 +88,7 @@ export default function Header() {
                 <Link className="" to="/dinning" target="_self">
                   <img
                     className="sub-nav-a-img"
-                    src="assets/asset 2.avif"
+                    src="/assets/asset 2.avif"
                     alt=""
                   />
                 </Link>
@@ -97,9 +97,7 @@ export default function Header() {
               <NavLink
                 to="/dinning"
                 className={({ isActive }) =>
-                  `${
-                    isActive ? "text-red-500" : "text-yellow-700"
-                  } sub-nav-a-text`
+                  ` ${isActive ? "active-tab" : "inactive-tab"} sub-nav-a-text`
                 }
                 target="_self"
               >

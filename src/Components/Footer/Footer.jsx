@@ -164,7 +164,10 @@ export default function Footer() {
 
       {/* Scroll-Button */}
 
-      <div className="scrollup">
+      <div
+        className="scrollup"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
         <i className="fa-solid fa-chevron-up scroll-icon"></i>
       </div>
     </>
